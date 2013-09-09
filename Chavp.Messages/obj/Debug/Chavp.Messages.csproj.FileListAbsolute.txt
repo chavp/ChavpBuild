@@ -1,0 +1,4 @@
+D:\projects\Git\Chavp Build\Chavp.Messages\bin\Debug\Chavp.Messages.dll
+D:\projects\Git\Chavp Build\Chavp.Messages\bin\Debug\Chavp.Messages.pdb
+D:\projects\Git\Chavp Build\Chavp.Messages\obj\Debug\Chavp.Messages.dll
+D:\projects\Git\Chavp Build\Chavp.Messages\obj\Debug\Chavp.Messages.pdb
