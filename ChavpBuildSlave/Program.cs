@@ -17,7 +17,7 @@ namespace ChavpBuildSlave
         static void Main(string[] args)
         {
             string rabbitMQBrokerHost = "localhost";
-            string virtualHost = "build-pipeline";
+            string virtualHost = "command-pipeline";
             string username = Settings.Default.UserName;
             string password = Settings.Default.Password;
 

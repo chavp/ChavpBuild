@@ -11,7 +11,8 @@ namespace ChavpBuildSlave
     {
         public void Consume(SystemCommand message)
         {
-            Console.WriteLine(message.Message);
+            Console.WriteLine("Sever Time: " + message.ServerUtcNow);
+            Console.WriteLine("Message: " + message.Message);
         }
     }
 }

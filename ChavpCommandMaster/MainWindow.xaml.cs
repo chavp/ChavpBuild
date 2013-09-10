@@ -33,7 +33,7 @@ namespace ChavpCommandMaster
             InitializeComponent();
 
             string rabbitMQBrokerHost = "localhost";
-            string virtualHost = "build-pipeline";
+            string virtualHost = "command-pipeline";
             string username = "guest";
             string password = "guest";
 
@@ -85,7 +85,6 @@ namespace ChavpCommandMaster
                         "Build {0} Fail. {1}", _buildCommandVM.SelectedSlaveName, DateTime.Now.ToString());
                 }));
         }
-
 
         private void Announce_Click(object sender, RoutedEventArgs e)
         {
